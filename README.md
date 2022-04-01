@@ -1,4 +1,3 @@
-# Tabaani
-Mobile App 
-  Codename One - Java
+# Tabaani - Mobile App
+Codename One - Java
   
