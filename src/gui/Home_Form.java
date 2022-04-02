@@ -39,15 +39,20 @@ public class Home_Form extends Form{
         
         Button btnThemes = new Button("MENU THEMES");
         btnThemes.setUIID("LoginButton");
+        
+        Button btnMap = new Button("CHECK MAPS");
+        btnMap.setUIID("LoginButton");
 
         btnEvents.addActionListener(e -> new Events_Home_Form(current).show());
         btnThemes.addActionListener(e -> new Themes_Home_Form(current,theme).show());
+        btnMap.addActionListener(e -> new MapForm());
         
         Container by = BoxLayout.encloseY(
                 new Label("Welcome To Tabaani !", "WelcomeWhite"),
                 profilePicLabel,
                 btnEvents,
-                btnThemes                
+                btnThemes,
+                btnMap                 
         );
         add(BorderLayout.CENTER, by);        
 

@@ -11,16 +11,17 @@ package entities;
  */
 public class Themes {
     private int id;
-    private String themename, imagetheme;
+    private String themename;
 
-    public Themes(int id, String themename, String imagetheme) {
+    public Themes(int id, String themename) {
         this.id = id;
         this.themename = themename;
-        this.imagetheme = imagetheme;
     }    
-    public Themes(String themename, String imagetheme) {
+    public Themes(String themename) {
         this.themename = themename;
-        this.imagetheme = imagetheme;
+    }
+
+    public Themes() {
     }
 
     public int getId() {
@@ -28,13 +29,6 @@ public class Themes {
     }
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getImagetheme() {
-        return imagetheme;
-    }
-    public void setImagetheme(String imagetheme) {
-        this.imagetheme = imagetheme;
     }
 
     public String getThemename() {
@@ -46,7 +40,7 @@ public class Themes {
 
     @Override
     public String toString() {
-        return "Theme{" + "id=" + id + ", themename=" +	themename + ", imagetheme=" + imagetheme + '}';
+        return "Theme{" + "id=" + id + ", themename=" +	themename + '}';
     }
     
     

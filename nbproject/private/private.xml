@@ -5,9 +5,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/com/mycompany/myapp/MyApplication.java</file>
+            <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/gui/Add_Theme_Form.java</file>
             <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/gui/Home_Form.java</file>
             <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/gui/Add_Event_Form.java</file>
+            <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/entities/Themes.java</file>
+            <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/services/Service_Event.java</file>
             <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/gui/Themes_Home_Form.java</file>
+            <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/entities/Events.java</file>
+            <file>file:/D:/3ème_TIC_ESPRIT/2eme_Semestre/PIDEV/Code/Mobile/Tabaani/src/services/Service_Theme.java</file>
         </group>
     </open-files>
 </project-private>
